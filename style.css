@@ -1,0 +1,43 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.page {
+    background-color: rgb(211, 238, 255);
+    border: solid 2px black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 3px black;
+    width: 400px;
+    height: 600px;
+
+    padding: 20px;
+    margin: 40px;
+    position: relative;
+}
+
+.nextPage {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 20px;
+}
+.previousPage {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 20px;
+}
+
+h1, a {
+    color: gray;
+    font-style: italic;
+}
+
+a:hover {
+    font-weight: bold;
+    color: white;
+}
+
+#page3 a {
+    color: darkblue;
+}
